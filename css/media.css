@@ -1,0 +1,152 @@
+@media (max-width: 1199.98px) {
+    .main {
+        width: calc(100vw - 100px);
+        height: calc(100vh - 100px);
+        margin: 50px;
+    }
+
+    .main-blocks-angle {
+        width: 80px;
+        height: 80px;
+    }
+    .welcome-servers-item {
+        min-height: 200px;
+    }
+
+    .main-content {
+        align-items: flex-start !important;
+    }
+    
+}
+
+@media (max-width: 991.98px) {
+
+    .page-links li {
+        width: 100%;
+    }
+
+    .main-button {
+        bottom: 5px;
+    }
+
+    .main-blocks-angle-1 > .main-logo {
+        display: none;
+    }
+
+    .mini-profile {
+        min-width: 240px;
+        margin-left: -140px;
+    }
+
+    .mini-profile-realbalance,
+    .mini-profile-gamebalance {
+        display: flex;
+        flex-flow: column !important;
+    }
+
+    .mini-profile-user__name,
+    .mini-profile-user__privilage {
+    display: none;
+}
+
+    .welcome-servers-list {
+        display: none !important;
+    }
+
+    .welcome-butons button {
+        margin: 0 !important;
+        margin-bottom: 15px !important;
+    }
+
+    .registration-image {
+        display: none;
+    }
+
+    .welcome-butons {
+        justify-content: center;
+    }
+
+    .main-content {
+        margin: 20px;
+        margin-top: 60px;
+    }
+
+    .welcome-text {
+        text-align: center;
+    }
+
+    .welcome-text::after {
+        content: '';
+        position: absolute;
+        width: 95px;
+        height: 95px;
+        left: 10px;
+        top: -10px;
+        background: rgba(250, 135, 91, 0.1);
+    }
+
+    .welcome-text h1 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .welcome-text p {
+        justify-content: center;
+    }
+
+    .welcome-text p::before {
+        content: none;
+    }
+
+    .main {
+        width: calc(100vw - 60px);
+        height: calc(100vh - 60px);
+        margin: 30px;
+    }
+
+    .main-menu {
+        justify-content: flex-start;
+        top: 50px;
+    }
+
+    .main-blocks-angle {
+        width: 80px;
+        height: 80px;
+    }
+    .main-blocks-angle svg {
+        width: 20px;
+        height: 20px;
+    }
+    .main-links {
+        min-width: 200px;
+    }
+
+    .main-links:last-child {
+        min-width: 400px;
+        margin-right: 50px;
+    }
+
+ul.top-list li {
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 0px;
+    margin-left: -20px;
+}
+
+.button-primary {
+    width: 161%;
+}
+
+}
+
+@media (max-width: 767.98px) {
+    .main-blocks-angle {
+        width: 60px;
+        height: 60px;
+    }
+    .main-logo {
+        padding: 0 10px
+    }
+}
+
+@media (max-width: 575.98px) {}
